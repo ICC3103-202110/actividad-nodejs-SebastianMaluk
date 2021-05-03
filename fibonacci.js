@@ -1,6 +1,7 @@
+// First run "npm install --save readline-sync" in terminal
 const readline = require("readline-sync");
 
-let number = readline.question("What number?\n");
+let number = readline.question("What number do you want to calculate?\n");
 
 function fibonacci(number) {
     if (number < 0){
